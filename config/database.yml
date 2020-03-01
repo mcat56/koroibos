@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  database: koroibos_development
+
+test:
+ adapter: postgresql
+ database: koroibos_test
+
+production:
+  adapter: postgresql
+  database: <%= ENV['DATABASE_NAME'] %>
