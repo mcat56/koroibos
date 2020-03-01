@@ -3,7 +3,7 @@ require File.expand_path("../../config/environment", __FILE__)
 require 'rspec'
 require 'capybara/dsl'
 require 'database_cleaner'
-Capybara.app = SinatraPracticeApp
+Capybara.app = KoroibosApi
 DatabaseCleaner.strategy = :truncation
 RSpec.configure do |c|
   c.include Capybara::DSL
