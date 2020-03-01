@@ -1,6 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.5.7'
-
 
 gem 'sinatra', require: 'sinatra/base'
 gem 'sinatra-activerecord'
@@ -16,7 +14,6 @@ gem 'dotenv'
 gem 'require_all'
 gem 'thin'
 gem 'shotgun'
-gem 'dotenv'
 
 group :development, :test do
 	gem 'factory_bot'
