@@ -27,7 +27,3 @@ group :test do
   gem 'database_cleaner'
   gem 'rspec'
 end
-
-group :production do
-  gem 'puma'
-end
