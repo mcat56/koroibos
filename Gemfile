@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+ruby '2.5.7'
+
 
 gem 'sinatra', require: 'sinatra/base'
 gem 'sinatra-activerecord'
@@ -28,4 +30,8 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'rspec'
+end
+
+group :production do
+  gem 'puma'
 end
