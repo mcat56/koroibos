@@ -14,7 +14,6 @@ gem 'dotenv'
 gem 'require_all'
 gem 'thin'
 gem 'shotgun'
-gem 'dotenv'
 
 group :development, :test do
 	gem 'factory_bot'
@@ -28,4 +27,8 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'rspec'
+end
+
+group :production do
+  gem 'puma'
 end
